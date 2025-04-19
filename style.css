@@ -1,0 +1,72 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding-bottom: opx;
+    background-color: #544541;
+
+}
+
+header{
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgb(155, 168, 57);
+    
+}
+
+.piture{
+    width: 15px;
+    height: auto;
+    border-radius: 12px;
+    margin-right: 10%;
+}
+
+.my-name{
+    line-height: 120px;
+    margin-left: 30px;
+}
+
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.biography{
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    color:rgb(155, 168, 57)
+    
+}
+
+.contact-form{
+    color:rgb(255, 255, 255) 
+}
+
+.paragraph{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills-list{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+footer{
+    direction: ltr;
+    background-color: rgb(155, 168, 57);
+}
+
+.footer-text{
+    margin-bottom:0;
+    background-color: rgb(155, 168, 57);
+}
+
+input, textarea{
+    display: block;
+    width: 27%;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 15px
+}
