@@ -3,34 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <title>Fateme Yaghoubi</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
-    <img
-      src="https://th.bing.com/th/id/OIP.0JP-WdLA779IwtL6WGOteAHaNK?rs=1&pid=ImgDetMain"
-      alt="flower"
-      style="width: 256px; height: 144"
-    />
+  <body >
+  <header>
+    <img class="picture" src="20250328_1552282.jpg" 
+    style="width: 154px; height: 160px"
+    alt="profile-picture">
+    <h2 class="my-name">Fateme Yaghoubi</h3>
+
+  
+  </header>
+  
+  <div class="biography">
     <h3>My Story: Interests and Skills</h3>
-    <p>
-      My name is Fateme Yaghoubi and I am a creative individual who enjoys
-      exploring new opportunities and connecting with people. Currently as a
-      computer engineering student, I am eager to learn and grow in the field of
-      programming to become a talented developer. In addition, I've started
-      gaining new skills like:
-    </p>
-    <ul>
-      <li>problem solving</li>
-      <li>programming in C++ and python</li>
-      <li>data analysing with R language</li>
-      <li>web developing with HTML and CSS</li>
+    
+    <dive class="paragraph">
+      <p>
+        My name is Fateme Yaghoubi and I am a creative individual who enjoys
+        exploring new opportunities and connecting with people.<br> Currently as a
+        computer engineering student, I am eager to learn and grow in the field of
+        programming to become a talented developer.<br> In addition, I've started
+        gaining new skills like:
+      </p>      
+    </dive>
+
+    <dive class="skills-list">
+      <ul>
+        <li>problem solving</li>
+        <li>programming in C++ and python</li>
+        <li>data analysing with R language</li>
+        <li>web developing with HTML and CSS</li>
     </ul>
-    <h3>I'd love to hear from you, drop me a message!</h3>
-    <h4>Your name</h4>
-    <input type="text" />
-    <h4>Your email adress</h4>
-    <input type="text" />
-    <h4>Your massage</h4>
-    <input type="text" />
+    </dive>
+
+    </div>
+    
+    <div class="contact-form">
+      <h3>I'd love to hear from you, drop me a message!</h3>
+     <form action="">  
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br><br>
+    </form>
+
+    </div>
+    
+    <footer>
+      <p class="footer-text">Best wishes<br>
+      provided by Fateme Yaghoubi, Khatam university, Tehran, Iran</p>
+    </footer>
+
   </body>
 </html>
